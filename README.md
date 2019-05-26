@@ -1,9 +1,17 @@
 # CLAN
 Coming soon
 
-## Visualization Results
-![](https://github.com/RoyalVane/CLAN/blob/master/gifs/video_1_small.gif)
-![](https://github.com/RoyalVane/CLAN/blob/master/gifs/video_2_small.gif)
+## Oral Video
+[![Watch the video](https://github.com/RoyalVane/CLAN/blob/master/gifs/video.png)](https://www.bilibili.com/video/av53561336/)
 
-![](https://github.com/RoyalVane/CLAN/blob/master/gifs/video_3_small.gif)
-![](https://github.com/RoyalVane/CLAN/blob/master/gifs/video_4_small.gif)
+## Visualization Results
+<p align="center">
+	<img src="https://github.com/RoyalVane/CLAN/blob/master/gifs/video_1.gif"  width="420" height="210" alt="(a)"/>
+
+  <img src="https://github.com/RoyalVane/CLAN/blob/master/gifs/video_2.gif"  width="420" height="210" alt="(b)"/>
+</p>
+<p align="center">
+	<img src="https://github.com/RoyalVane/CLAN/blob/master/gifs/video_3.gif"  width="420" height="210" alt="(c)"/>
+  
+  <img src="https://github.com/RoyalVane/CLAN/blob/master/gifs/video_4.gif"  width="420" height="210" alt="(d)"/>
+</p>
