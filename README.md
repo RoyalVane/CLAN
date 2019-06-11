@@ -30,7 +30,25 @@ The data folder is structured as follows:
 ```
 
 ### Train
+```
+CUDA_VISIBLE_DEVICES=0 python CLAN_train.py --snapshot-dir ./snapshots/GTA2Cityscapes
+```
 
+### Evaluate
+```
+CUDA_VISIBLE_DEVICES=0 python CLAN_evaluate.py --restore-from  ./snapshots/GTA2Cityscapes/GTA5_100000.pth --save ./result/GTA2Cityscapes_100000
+```
+
+### Compute IoU
+```
+python CLAN_iou.py ./data/Cityscapes/gtFine/val result/GTA2Cityscapes_100000
+```
+
+### Tip: The best-performance model might not be the final one in the last epoch. If you want to evaluate every saved models in bulk, please use CLAN_evaluate_bulk.py and CLAN_iou_bulk.py
+```
+CUDA_VISIBLE_DEVICES=0 python python CLAN_evaluate_bulk.py
+python CLAN_iou_bulk.py
+```
 
 ### Visualization Results
 <p align="left">
@@ -47,7 +65,7 @@ The data folder is structured as follows:
 ## Citation
 If you use this code in your research please consider citing
 ```
->@inproceedings{Yawei2019Taking,
+@inproceedings{Yawei2019Taking,
 title={Taking A Closer Look at Domain Shift: Category-level Adversaries for Semantics Consistent Domain Adaptation},
 author={Luo, Yawei and Zheng, Liang and Guan, Tao and Yu, Junqing and Yang, Yi},
 booktitle={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
