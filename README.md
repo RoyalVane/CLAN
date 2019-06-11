@@ -70,7 +70,7 @@ python CLAN_iou_bulk.py
   <img src="https://github.com/RoyalVane/CLAN/blob/master/gifs/video_4.gif"  width="420" height="210" alt="(d)"/>
 </p>
 
-#### This code is heavily borrowed from our baseline [AdaptSegNet] (https://github.com/wasidennis/AdaptSegNet)
+#### This code is heavily borrowed from the baseline [AdaptSegNet]( https://github.com/wasidennis/AdaptSegNet )
 
 ### Citation
 If you use this code in your research please consider citing
