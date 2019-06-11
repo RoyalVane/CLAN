@@ -11,13 +11,13 @@ This is a [pytorch](http://pytorch.org/) implementation of [CLAN](http://openacc
 
 ### Getting started
 
-Download [The GTA5 Dataset]( https://download.visinf.tu-darmstadt.de/data/from_games/ )
+- Download [The GTA5 Dataset]( https://download.visinf.tu-darmstadt.de/data/from_games/ )
 
-Download [The SYNTHIA Dataset]( http://synthia-dataset.net/download-2/ )
+- Download [The SYNTHIA Dataset]( http://synthia-dataset.net/download-2/ )
 
-Download [The Cityscapes Dataset]( https://www.cityscapes-dataset.com/ )
+- Download [The Cityscapes Dataset]( https://www.cityscapes-dataset.com/ )
 
-Download [The imagenet pretraind model]( https://drive.google.com/open?id=13kjtX481LdtgJcpqD3oROabZyhGLSBm2 )
+- Download [The imagenet pretraind model]( https://drive.google.com/open?id=13kjtX481LdtgJcpqD3oROabZyhGLSBm2 )
 
 The data folder is structured as follows:
 ```
