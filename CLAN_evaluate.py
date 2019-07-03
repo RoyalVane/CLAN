@@ -3,11 +3,7 @@ import numpy as np
 import torch
 from torch.autograd import Variable
 from torch.utils import data, model_zoo
-from model.CLAN_G_resnet import Res_Deeplab
-from model.CLAN_G_vgg import Vgg_Deeplab
-from model.CLAN_G_fcn8s import Vgg_Fcn8s
-from model.CLAN_G_vgg_bn import Vgg_Deeplab_bn
-#from model.CLAN_G_largeFoV import Vgg_FoV
+from model.CLAN_G import Res_Deeplab
 from dataset.cityscapes_dataset import cityscapesDataSet
 import os
 from PIL import Image
@@ -82,12 +78,6 @@ def main():
     
     if args.model == 'ResNet':
         model = Res_Deeplab(num_classes=args.num_classes)
-
-    elif args.model == 'Vgg':
-        #model = Vgg_Deeplab(num_classes=args.num_classes)
-        model = Vgg_Deeplab_bn(num_classes=args.num_classes)
-        #model = Vgg_Fcn8s(num_classes=args.num_classes)
-        #model = Vgg_FoV(num_classes=args.num_classes)
     
     if args.restore_from[:4] == 'http' :
         saved_state_dict = model_zoo.load_url(args.restore_from)
