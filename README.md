@@ -54,7 +54,7 @@ python CLAN_iou.py ./data/Cityscapes/gtFine/val result/GTA2Cityscapes_100000
 
 #### Tip: The best-performance model might not be the final one in the last epoch. If you want to evaluate every saved models in bulk, please use CLAN_evaluate_bulk.py and CLAN_iou_bulk.py, the result will be saved in an Excel sheet.
 ```
-CUDA_VISIBLE_DEVICES=0 python python CLAN_evaluate_bulk.py
+CUDA_VISIBLE_DEVICES=0 python CLAN_evaluate_bulk.py
 python CLAN_iou_bulk.py
 ```
 
