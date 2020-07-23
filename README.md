@@ -82,3 +82,7 @@ booktitle={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year={2019}
 }
 ```
+
+
+### Related works
+[Seg-Uncertainty]( https://github.com/layumi/Seg-Uncertainty#related-works )
