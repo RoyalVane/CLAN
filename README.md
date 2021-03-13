@@ -75,7 +75,14 @@ python CLAN_iou_bulk.py
 ### Citation
 If you use this code in your research please consider citing
 ```
-@inproceedings{Yawei2019Taking,
+@article{luo2021category,
+  title={Category-Level Adversarial Adaptation for Semantic Segmentation using Purified Features},
+  author={Luo, Yawei and Liu, Ping and Zheng, Liang and Guan, Tao and Yu, Junqing and Yang, Yi},
+  journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  year={2021},
+}
+
+@inproceedings{luo2019Taking,
 title={Taking A Closer Look at Domain Shift: Category-level Adversaries for Semantics Consistent Domain Adaptation},
 author={Luo, Yawei and Zheng, Liang and Guan, Tao and Yu, Junqing and Yang, Yi},
 booktitle={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
