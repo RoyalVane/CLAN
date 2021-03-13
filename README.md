@@ -78,7 +78,7 @@ If you use this code in your research please consider citing
 @article{luo2021category,
   title={Category-Level Adversarial Adaptation for Semantic Segmentation using Purified Features},
   author={Luo, Yawei and Liu, Ping and Zheng, Liang and Guan, Tao and Yu, Junqing and Yang, Yi},
-  journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence},
+  journal={IEEE Transactions on Pattern Analysis \& Machine Intelligence (TPAMI)},
   year={2021},
 }
 
